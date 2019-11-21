@@ -11,9 +11,9 @@ B = [8 -1 5
 y = [1 2 3 4 5]';
 C = [y.^4 y.^3 y.^2 y.^1 y.^0];
 
-[V D] = eig(A);
-[V D] = eig(B);
-[V D] = eig(C);
+[V D] = eig(A)
+[V D] = eig(B)
+[V D] = eig(C)
 
 A = inv(A);
 B = inv(B);
